@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 import time
 
 # Loading the dataset
-df = pd.read_csv("house-prices-advanced-regression-techniques/train.csv")
+df = pd.read_csv("data/train.csv")
 
 # Selecting the relevant features
 features = [

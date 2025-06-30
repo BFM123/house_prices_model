@@ -1,0 +1,15 @@
+Install dependencies
+  pip install -r requirements.txt
+
+Run with defaults
+Assuming you have:
+-data/train.csv
+-data/test.csv
+Simply run:
+  python train_and_predict.py
+
+Output:
+-submission.csv
+
+Run with custom paths
+ python train_and_predict.py --train_path my_train.csv --test_path my_test.csv --output_path my_submission.csv
